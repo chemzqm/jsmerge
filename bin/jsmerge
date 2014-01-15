@@ -1,0 +1,19 @@
+#!/usr/bin/env node
+
+var jsmerge = require('../');
+var program = require('commander');
+var fs = require ('fs');
+
+program
+  .version('0.0.1')
+  .option('-s, --src', 'source folder (src)')
+  .option('-o, --out', 'dist folder (build)')
+  .parse(process.argv);
+
+var src = program.src || 'src';
+var dist = program.out || 'build';
+if (!fs.existsSync(src)) throw new Error('source folder not exist');
+if (!fs.existsSync(dist)) throw new Error('dist folder not exist');
+
+jsmerge(src, dist);
+

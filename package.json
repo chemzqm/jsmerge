@@ -1,0 +1,28 @@
+{
+  "name": "jsmerge",
+  "version": "0.0.0",
+  "bin": {
+    "jsmerge": "./bin/jsmerge"
+  },
+  "description": "merge flatten scripts into one file with CMD style",
+  "main": "index.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chemzqm/jsmerge"
+  },
+  "keywords": [
+    "cmd", "build"
+  ],
+  "author": "chemzqm@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chemzqm/jsmerge/issues"
+  },
+  "homepage": "https://github.com/chemzqm/jsmerge",
+  "devDependencies": {
+    "commander": "~2.1.0"
+  }
+}
