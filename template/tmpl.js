@@ -1,4 +1,3 @@
-(function() {
 var modules = {};
 var dependency = {};
 var require = function(name) {

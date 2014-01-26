@@ -20,6 +20,7 @@ module.exports = function(src, dist) {
   var out = fs.createWriteStream(path.resolve(dist, 'build.js'), {
     encoding: 'utf8'
   });
+  out.write('(function() {\n');
   out.write(tmpl);
   var deps = {};
   files.forEach(function(f) {
