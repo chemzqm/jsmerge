@@ -1,5 +1,5 @@
 
 test:
-	@mocha --harmony
+	@./node_modules/.bin/mocha --harmony
 
 .PHONY: test
