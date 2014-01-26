@@ -14,7 +14,8 @@
     "url": "https://github.com/chemzqm/jsmerge"
   },
   "keywords": [
-    "cmd", "build"
+    "cmd",
+    "build"
   ],
   "author": "chemzqm@gmail.com",
   "license": "MIT",
@@ -22,7 +23,11 @@
     "url": "https://github.com/chemzqm/jsmerge/issues"
   },
   "homepage": "https://github.com/chemzqm/jsmerge",
-  "devDependencies": {
+  "dependencies": {
     "commander": "~2.1.0"
+  },
+  "devDependencies": {
+    "co-exec": "~1.1.0",
+    "co": "~3.0.2"
   }
 }

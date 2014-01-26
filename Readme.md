@@ -1,5 +1,7 @@
 # jsmerge
 
+[![Build Status](https://secure.travis-ci.org/chemzqm/jsmerge.png)](http://travis-ci.org/chemzqm/jsmerge)
+
 Build a single file with separated files of CMD style in one folder, useful for building embeded script.
 
 ## Install
